@@ -95,7 +95,7 @@ $("*").css("margin", "0");
 
 Co dokładnie wybiera
 
-'''HTML
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -123,7 +123,7 @@ $(function() {
     // <script>
 });
 </script>
-'''
+```
 
 ### 5. Selektory wielokrotne (,)
 Wybiera elementy pasujące do któregokolwiek selektora:
