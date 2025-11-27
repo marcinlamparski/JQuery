@@ -125,8 +125,8 @@ $(".highlight").css("background-color", "yellow");
 |$(":button")               |              // Wszystkie przyciski    |
 |$(":text")                 |             // Wszystkie text inputy   |
 |$(":checked")              |            // Zaznaczone checkboxy     |
-|$("li:odd")                |           // Nieparzyste <li>          |
-|$("li:even")               |          // Parzyste <li>              |
+|$("li:odd")                |           // Nieparzyste "<li>"          |
+|$("li:even")               |          // Parzyste "<li>"              |
 |$("p:contains('hello')")   |        // Paragrafy zawierające 'hello'|
 |$("div:visible")           |        // Tylko widoczne divy          |
 |$(":not(.active)")         |       // Elementy bez klasy active     |
