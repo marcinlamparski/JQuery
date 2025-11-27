@@ -87,11 +87,43 @@ $(function() {
 ```
 
 ### 4. Selektor uniwersalny (*)
-Wybiera wszystkie elementy:
+Wybiera WSZYSTKIE elementy HTML na stronie.
 
 ```javascript
 $("*").css("margin", "0");
 ```
+
+Co dokładnie wybiera
+
+'''HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strona</title>
+</head>
+<body>
+    <h1>Nagłówek</h1>
+    <p>Paragraf</p>
+    <div>Div</div>
+</body>
+</html>
+
+<script>
+$(function() {
+    console.log($("*").length);  // Wypisze: ~8
+    
+    // Wybrane elementy:
+    // <html>
+    // <head>
+    // <title>
+    // <body>
+    // <h1>
+    // <p>
+    // <div>
+    // <script>
+});
+</script>
+'''
 
 ### 5. Selektory wielokrotne (,)
 Wybiera elementy pasujące do któregokolwiek selektora:
