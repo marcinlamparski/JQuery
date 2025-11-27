@@ -358,3 +358,5 @@ $("#buttonId").on("click", function() {
 - [jQuery Dokumentacja](https://api.jquery.com/)
 - [jQuery Tutorial na W3Schools](https://www.w3schools.com/jquery/)
 - [Try jQuery - Interaktywne tutoriale](https://try.jquery.com/)
+
+  Miejsce na pliki klIV: https://www.dropbox.com/request/8dopAPZArnV8jJRAGzfM
