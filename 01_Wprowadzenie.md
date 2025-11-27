@@ -286,14 +286,6 @@ $(function() {
 - Użyj `.on("click", function() { ... })` do obsługi kliknięcia
 - Użyj `.text("nowy tekst")` do zmiany tekstu
 
-### Rozwiązanie (zobacz jeśli naprawdę utknąłeś)
-```javascript
-$(function() {
-    $("#btn").on("click", function() {
-        $("#message").text("Kliknąłeś mnie!");
-    });
-});
-```
 
 ---
 
