@@ -336,22 +336,6 @@ $("#buttonId").on("click", function() {
 });
 ```
 
-### Rozwiązanie
-```javascript
-$(function() {
-    $("#redBtn").on("click", function() {
-        $("#textToChange").css("color", "red");
-    });
-    
-    $("#greenBtn").on("click", function() {
-        $("#textToChange").css("color", "green");
-    });
-    
-    $("#blueBtn").on("click", function() {
-        $("#textToChange").css("color", "blue");
-    });
-});
-```
 
 ---
 
