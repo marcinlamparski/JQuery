@@ -113,6 +113,25 @@ $(".highlight").css("background-color", "yellow");
 | Iteracja                | .each()           | .forEach()      | .forEach()         |
 ---
 
+**Porównanie JQuery z querySelector w JS**
+
+// Selektory CSS - obie działają:
+$("div")                          // querySelector("div")
+$("#myId")                        // querySelector("#myId")
+$(".myClass")                     // querySelector(".myClass")
+$("div.class")                    // querySelector("div.class")
+
+// TYLKO jQuery pseudo-selektory - querySelector nie zna:
+$(":button")                       // Wszystkie przyciski
+$(":text")                         // Wszystkie text inputy
+$(":checked")                      // Zaznaczone checkboxy
+$("li:odd")                        // Nieparzyste <li>
+$("li:even")                       // Parzyste <li>
+$("p:contains('hello')")          // Paragrafy zawierające 'hello'
+$("div:visible")                   // Tylko widoczne divy
+$(":not(.active)")                 // Elementy bez klasy active
+
+
 ## Czekanie na gotowość DOM
 
 **Ważne!** Skrypt jQuery powinien czekać, aż cały dokument HTML się załaduje, zanim zacznie szukać elementów.
