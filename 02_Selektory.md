@@ -124,6 +124,28 @@ $(function() {
 });
 </script>
 ```
+Przykład 1: Zmiana marginesów wszystkich elementów
+
+```js
+$("*").css("margin", "0");
+$("*").css("padding", "0");
+// Reset wszystkich marginesów i paddingow - typowo w CSS reset
+```
+
+Przykład 2: Dodanie granic do wszystkiego (do debugowania)
+
+```js
+
+$("*").css("border", "1px solid red");
+// Widać teraz każdy element na stronie!
+```
+
+Przykład 3: Liczenie wszystkich elementów
+
+```js
+var count = $("*").length;
+console.log("Elementów na stronie: " + count);
+```
 
 ### 5. Selektory wielokrotne (,)
 Wybiera elementy pasujące do któregokolwiek selektora:
