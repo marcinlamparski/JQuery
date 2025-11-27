@@ -359,4 +359,6 @@ $("#buttonId").on("click", function() {
 - [jQuery Tutorial na W3Schools](https://www.w3schools.com/jquery/)
 - [Try jQuery - Interaktywne tutoriale](https://try.jquery.com/)
 
-  Miejsce na pliki klIV: https://www.dropbox.com/request/8dopAPZArnV8jJRAGzfM
+  Miejsce na pliki kl IV: https://www.dropbox.com/request/8dopAPZArnV8jJRAGzfM
+
+  Miejsce na pliki kl V https://www.dropbox.com/request/y0oXWXF1hunsqzfaJDgE
