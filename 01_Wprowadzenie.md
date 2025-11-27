@@ -112,7 +112,9 @@ $(".highlight").css("background-color", "yellow");
 | Łańcuchowanie           | Tak               | Nie             | Nie                |
 | Iteracja                | .each()           | .forEach()      | .forEach()         |
 
-|Selektory CSS - obie działają:||
+
+|Selektory CSS - obie działają:|                        |
+|-----------------|----------------------------------------------|
 |$("div")|                          querySelector("div")|
 |$("#myId")|                        querySelector("#myId")|
 |$(".myClass")|                     querySelector(".myClass")|
