@@ -101,7 +101,16 @@ $("p").text("Nowy tekst");
 // Wybierz wszystkie elementy z klasą "highlight" i zmień kolor tła
 $(".highlight").css("background-color", "yellow");
 ```
+**Porównanie JQuery z querySelector w JS**
 
+| Cecha                   | $(selector)jQuery | querySelector() | querySelectorAll() |
+| ----------------------- | ----------------- | --------------- | ------------------ |
+| Zwraca pierwszy element | Nie (wszystkie)   | Tak             | Nie                |
+| Zwraca kolekcję         | Tak (jQuery)      | Nie             | Tak (NodeList)     |
+| Pseudo-selektory jQuery | Tak               | Nie             | Nie                |
+| Wbudowane metody        | Setki             | Tylko DOM API   | Podstawowe         |
+| Łańcuchowanie           | Tak               | Nie             | Nie                |
+| Iteracja                | .each()           | .forEach()      | .forEach()         |
 ---
 
 ## Czekanie na gotowość DOM
