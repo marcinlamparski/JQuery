@@ -437,19 +437,7 @@ $(function() {
 - Pamiętaj o `$(".class")` dla klas
 - Możesz łączyć selektory np. `$("#main p")`
 
-### Rozwiązanie
-```javascript
-$(function() {
-    // Zadanie 1
-    $("#header").css("background-color", "lightblue");
-    
-    // Zadanie 2
-    $(".important").css("color", "red");
-    
-    // Zadanie 3
-    $("p").css("font-size", "18px");
-});
-```
+
 
 ---
 
@@ -512,22 +500,6 @@ $(function() {
 - `:contains()` do wyszukiwania tekstu
 - `td` to komórka tabeli
 
-### Rozwiązanie
-```javascript
-$(function() {
-    // Zadanie 1
-    $("#students tr:even").css("background-color", "lightgray");
-    
-    // Zadanie 2
-    $("#students tr:first").css("background-color", "gold");
-    
-    // Zadanie 3
-    $("#students tr:last").css("color", "green");
-    
-    // Zadanie 4
-    $("td:contains('Maria')").css("font-weight", "bold");
-});
-```
 
 ---
 
@@ -583,18 +555,7 @@ $(function() {
 - `>` wybiera tylko bezpośrednie dzieci
 - Spacja wybiera wszystkich potomków na każdym poziomie
 
-### Rozwiązanie
-```javascript
-$(function() {
-    // Zadanie 1: Bezpośrednie p w .box
-    $(".box > p").css("background-color", "yellow");
-    
-    // Zadanie 2: Wszystkie p w #container
-    $("#container p").css("color", "red");
-    
-    // Zadanie 3: Wszystkie h2
-    ("h2").css("color", "blue");
-});
+
 ```
 
 ---
