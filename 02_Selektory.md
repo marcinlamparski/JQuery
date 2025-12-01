@@ -556,7 +556,6 @@ $(function() {
 - Spacja wybiera wszystkich potomków na każdym poziomie
 
 
-```
 
 ---
 
