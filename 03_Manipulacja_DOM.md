@@ -386,8 +386,11 @@ $(function() {
 </body>
 </html>
 ```
+### Wskazówka
 
-
+$("#btnText").on("click", function() {
+        $("#container").text("Tekst został zmieniony");
+    })
 
 ---
 
