@@ -79,6 +79,7 @@ $("div").html("<b>To będzie pogrubione</b>");
 ```
 
 ### .append() i .prepend() - Dodawanie zawartości
+# append() dodaje zawartość na końcu potomka każdego wybranego elementu, podczas gdy prepend() wstawia zawartość na początku potomka każdego wybranego elementu. Obie metody służą do manipulowania strukturą drzewa DOM, dodając nowe elementy lub tekst do istniejących już na stronie
 
 ```javascript
 // Dodaj na końcu
