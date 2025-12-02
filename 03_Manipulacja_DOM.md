@@ -386,22 +386,7 @@ $(function() {
 </html>
 ```
 
-### Rozwiązanie
-```javascript
-$(function() {
-    $("#btnText").on("click", function() {
-        $("#container").text("Tekst został zmieniony");
-    });
-    
-    $("#btnHTML").on("click", function() {
-        $("#container").html("<strong>HTML został zmieniony</strong>");
-    });
-    
-    $("#btnAppend").on("click", function() {
-        $("#container").append("<p>Nowy paragraf</p>");
-    });
-});
-```
+
 
 ---
 
@@ -450,26 +435,6 @@ $(function() {
 - Użyj `.addClass()` do dodawania klas
 - Możesz łańcuchować operacje
 
-### Rozwiązanie
-```javascript
-$(function() {
-    $("#btnImage").on("click", function() {
-        $("#myImg").attr({
-            "src": "new.jpg",
-            "alt": "Nowy obraz"
-        });
-    });
-    
-    $("#btnLink").on("click", function() {
-        $("#myLink").attr("href", "new.html");
-    });
-    
-    $("#btnStyle").on("click", function() {
-        $("#myImg").addClass("highlight large");
-        $("#myLink").addClass("highlight large");
-    });
-});
-```
 
 ---
 
@@ -522,34 +487,6 @@ $(function() {
 - Użyj `.val()` do pobierania/ustawiania wartości
 - Możesz łączenia wiele `.val()` razem
 
-### Rozwiązanie
-```javascript
-$(function() {
-    $("#btnFill").on("click", function() {
-        $("#name").val("Jan Kowalski");
-        $("#email").val("jan@example.com");
-        $("#country").val("pl");
-    });
-    
-    $("#btnClear").on("click", function() {
-        $("#name").val("");
-        $("#email").val("");
-        $("#country").val("");
-    });
-    
-    $("#btnShow").on("click", function() {
-        var imie = $("#name").val();
-        var email = $("#email").val();
-        var kraj = $("#country").val();
-        
-        var tekst = "Imię: " + imie + "<br>";
-        tekst += "Email: " + email + "<br>";
-        tekst += "Kraj: " + kraj;
-        
-        $("#output").html(tekst);
-    });
-});
-```
 
 ---
 
