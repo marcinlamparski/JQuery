@@ -372,3 +372,7 @@ Te ćwiczenia sprawdzają umiejętności z zakresu:
 - ✅ Pokazywania i ukrywania elementów (`.show()`, `.hide()`)
 
 **Powodzenia!** 🚀
+
+Miejsce na wysłanie plików: 
+
+https://www.dropbox.com/request/MywwO8yCocsHWLCB2Rns
