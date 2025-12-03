@@ -117,6 +117,8 @@ $(function() {
 ### Wskazówka
 Użyj pseudo-selektorów `:even` i `:odd` dla wierszy. Pamiętaj, że indeksowanie zaczyna się od 0 (pierwszy wiersz to nagłówek). Do obsługi najechania myszką użyj metod `.on("mouseenter", ...)` i `.on("mouseleave", ...)`. Rozważ użycie selektora `tr:gt(0)`, który wybiera wiersze z indeksem większym niż 0.
 
+Korzystaj z dokumentacji np na stronie jquery z metodą mouseleave: https://api.jquery.com/mouseleave-shorthand/
+
 ---
 
 ## Ćwiczenie 3: Wyszukiwanie na liście
