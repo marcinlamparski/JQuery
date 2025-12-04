@@ -505,3 +505,5 @@ $(function() {
 - Jak pracować z formularzami
 
 **Kolejna lekcja:** Obsługa zdarzeń - nauczymy się reagować na kliknięcia, hovering i inne akcje użytkownika!
+
+[Miejsce na wysłanie plików](https://www.dropbox.com/request/rg9kGTu9nJCgPdYcqrvR)
