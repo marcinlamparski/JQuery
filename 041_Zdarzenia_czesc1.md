@@ -533,3 +533,4 @@ $(function() {
 - Pracować ze słowem kluczowym `this`
 
 **Następna lekcja:** Część 2 - Delegowanie zdarzeń i zaawansowane techniki!
+[Miejsce na wysłanie plików z zadaniami](https://www.dropbox.com/request/AE1IfdAPv88jZOrI7g3I) 
